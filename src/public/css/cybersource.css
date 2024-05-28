@@ -301,3 +301,10 @@
       width: 246px;
       overflow: hidden;
   }
+
+  @media only screen and (max-width: 768px) {
+    .code {
+        overflow-x: auto;
+        width: 100%;
+    }
+}
