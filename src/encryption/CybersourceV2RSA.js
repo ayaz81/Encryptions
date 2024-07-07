@@ -24,10 +24,10 @@ class CybersourceV2 {
             const cardType = determineCardType(cc);
             const cardData = {
                 number: cc,
-                securityCode: cvv,
+                type: cardType,
                 expirationMonth: mes,
                 expirationYear: ano,
-                cardType: cardType
+                securityCode: cvv
             };
     
             if (cc) {
