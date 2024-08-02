@@ -1,20 +1,17 @@
-# Gatway Encryptions
+# Gateway Encryptions
 
-This is a encryptor of gateways.
+This is an encryptor for gateways.
 
-## Things need to change
+## Setup Instructions
 
-To run this project perfectly go to
+To run this project perfectly, follow the steps below:
 
-``` 
-src/db/connection.js
+1. Open the file:
+  src/db/connection.js
+2. Replace `<MONGO URL>` with your actual Database URL:
+```javascript
+await mongoose.connect('<MONGO URL>/SiteDB', {});
 ```
-Change MONGO URL with your Database URL
-```bash
-  await mongoose.connect('<MONGO URL>/SiteDB', {});
-```
-
-
 
 Made by [@OriginalAni](https://t.me/OriginalAni) and [@ThevenRex](https://t.me/ThevenRex)
 ## License
